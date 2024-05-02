@@ -1,0 +1,12 @@
+.basic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--basic-light-text-color);
+  background-color: var(--primary-accent-color);
+
+  &:focus,
+  &:hover {
+    background-color: var(--secondary-accent-color);
+  }
+}
