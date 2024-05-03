@@ -1,2 +1,3 @@
-import '../scss/style.scss'
+import '../scss/style.scss';
+
 console.log('it`s works!');
