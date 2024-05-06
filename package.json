@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --open",
     "lint": "eslint --ext .js ./",
     "lint:fix": "eslint --fix --ext .js ./",
     "format": "prettier --write \"./**/*.{js,jsx,json,css,html}\""
@@ -32,6 +32,5 @@
     "vite": "^5.2.11",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-image-optimizer": "^1.1.7"
-  },
-  "dependencies": {}
+  }
 }

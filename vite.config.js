@@ -6,6 +6,7 @@ import glob from 'fast-glob';
 import { fileURLToPath } from 'url';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import eslint from 'vite-plugin-eslint';
+import moveIndexJsToBodyPlugin from './plugins/vite-plugin-move-indexjs-to-body';
 
 export default defineConfig({
   publicDir: 'public',
@@ -42,6 +43,7 @@ export default defineConfig({
       }),
       apply: 'serve',
     },
+    moveIndexJsToBodyPlugin(),
   ],
   build: {
     rollupOptions: {
