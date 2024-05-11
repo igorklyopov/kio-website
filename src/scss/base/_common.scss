@@ -24,3 +24,43 @@
   font-family: inherit;
   line-height: inherit;
 }
+
+.light_theme {
+  color: var(--primary-dark-color);
+  background-color: var(--primary-light-color);
+}
+
+.dark_theme {
+  color: var(--primary-light-color);
+  background-color: var(--primary-dark-color);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow-light);
+
+  .dark_theme & {
+    box-shadow: var(--box-shadow-dark);
+  }
+
+  // outline: 2px solid navy; // for test
+}
+
+.icon {
+  $icon-size: 40px;
+
+  width: $icon-size;
+  height: $icon-size;
+  margin-right: 10px;
+  color: var(--primary-tiny-dark-color);
+  fill: var(--primary-tiny-dark-color);
+}

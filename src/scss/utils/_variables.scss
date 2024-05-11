@@ -6,6 +6,9 @@
   --primary-light-color: #f5f5f5;
   --secondary-light-color: #fafafa;
 
+  --box-shadow-light: 6px 6px 8px #b8b8b8, -6px -6px 8px #ffffff;
+  --box-shadow-dark: 6px 6px 8px #2d2d2d, -6px -6px 8px #4b4b4b;
+
   //typography
   --regular-font-weight: 400;
   --medium-font-weight: 500;
@@ -18,4 +21,5 @@
 //breakpoints for adaptability
 $phone: 320px;
 $tablet: 768px;
+$laptop: 1024px;
 $desktop: 1920px;
