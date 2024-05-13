@@ -51,8 +51,6 @@
   .dark_theme & {
     box-shadow: var(--box-shadow-dark);
   }
-
-  // outline: 2px solid navy; // for test
 }
 
 .icon {
@@ -61,6 +59,4 @@
   width: $icon-size;
   height: $icon-size;
   margin-right: 10px;
-  color: var(--primary-tiny-dark-color);
-  fill: var(--primary-tiny-dark-color);
 }
