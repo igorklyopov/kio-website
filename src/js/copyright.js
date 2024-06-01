@@ -1,6 +1,9 @@
 const copyrightYearRef = document.querySelector('[data-name="copyright-year"]');
 const getCopyrightYear = () => {
-  copyrightYearRef.textContent = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
+
+  copyrightYearRef.dateTime = currentYear;
+  copyrightYearRef.textContent = currentYear;
 };
 
 export default getCopyrightYear;
