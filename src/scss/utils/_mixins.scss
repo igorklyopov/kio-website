@@ -33,6 +33,12 @@
   }
 }
 
+@mixin adaptive-for-laptop {
+  @media (min-width: $laptop) {
+    @content;
+  }
+}
+
 @mixin adaptive-before-tablet {
   @media screen and (max-width: $tablet - 1px) {
     @content;

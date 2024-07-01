@@ -1,5 +1,6 @@
 import '../scss/style.scss';
 
+import './navigation';
 import getCopyrightYear from './copyright';
 
 getCopyrightYear();

@@ -29,6 +29,15 @@ body {
   line-height: inherit;
 }
 
+.section {
+  margin-bottom: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+// ------------------------------------
 .light_theme {
   color: var(--primary-dark-color);
   background-color: var(--primary-light-color);
@@ -37,14 +46,6 @@ body {
 .dark_theme {
   color: var(--primary-light-color);
   background-color: var(--primary-dark-color);
-}
-
-.section {
-  margin-bottom: 30px;
-}
-
-.title {
-  text-align: center;
 }
 
 .card {
@@ -63,4 +64,8 @@ body {
   width: $icon-size;
   height: $icon-size;
   margin-right: 10px;
+}
+
+main {
+  padding-top: 70px;
 }

@@ -132,53 +132,35 @@
     <!-- favicon END -->
     <title>###title</title>
   </head>
+
   <body class="light_theme">
     <header class="header">
       <div class="container">
-        <nav>
-          <ul class="list">
-            <li>
-              <a href="#contacts" class="link">
-                <svg width="20" height="20">
-                  <use
-                    href="./src/images/icons/icons-sprite.svg#contact-me-icon"
-                  ></use>
-                </svg>
-                contacts
-              </a>
-            </li>
-            <li>
-              <a href="#tech_skills" class="link">
-                <svg width="20" height="20">
-                  <use
-                    href="./src/images/icons/icons-sprite.svg#tech-skills-icon"
-                  ></use>
-                </svg>
-                tech skills
-              </a>
-            </li>
-            <li>
-              <a href="#soft_skills" class="link">
-                <svg width="20" height="20">
-                  <use
-                    href="./src/images/icons/icons-sprite.svg#soft-skills-icon"
-                  ></use>
-                </svg>
-                soft skills
-              </a>
-            </li>
-            <li>
-              <a href="#location" class="link">
-                <svg width="20" height="20">
-                  <use
-                    href="./src/images/icons/icons-sprite.svg#maps-pin-line-icon"
-                  ></use>
-                </svg>
-                location
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header_content">
+          <nav class="nav" data-name="navigation">
+            <ul class="list nav_list" data-name="nav_list">
+              <li class="nav_item">
+                <a href="#contacts" class="link nav_link"> contacts </a>
+              </li>
+              <li class="nav_item">
+                <a href="#tech_skills" class="link nav_link"> tech skills </a>
+              </li>
+              <li class="nav_item">
+                <a href="#soft_skills" class="link nav_link"> soft skills </a>
+              </li>
+              <li class="nav_item">
+                <a href="#location" class="link nav_link"> location </a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            class="button open_menu_btn"
+            data-name="open_menu_btn"
+            aria-label="toggle mobile menu button"
+          >
+            <span class="burger_pseudo_icon_line"></span>
+          </button>
+        </div>
       </div>
     </header>
     <main>
